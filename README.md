@@ -97,9 +97,22 @@ pip install -r requirements.txt
 
 ---
 
+## ⚙️ Environment Setup
+
+Create a `.env` file in the project root with your Mistral API key (and ensure `FFmpeg` is installed on your system):
+
+```env
+MISTRAL_API_KEY=your_mistral_api_key_here
+WHISPER_MODEL=base
+```
+
 ## ▶️ Run Application
 
 ```bash
+# Primary custom-styled Streamlit interface
+streamlit run app.py
+
+# Or minimal interface
 streamlit run main.py
 ```
 
