@@ -130,17 +130,6 @@ streamlit run main.py
 
 ---
 
-## 📸 Demo
-
-Add screenshots of:
-
-* Home Page
-* Transcript Generation
-* AI Summary
-* Chat With Video (RAG)
-
----
-
 ## 🔮 Future Enhancements
 
 * Multi-language Support
